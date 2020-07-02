@@ -1,0 +1,180 @@
+@import "libs.scss";
+@import "fonts";
+@import "global";
+@import "vars";
+
+/*====================================== HEADER ====================================== */
+.header{
+  color: #fff;
+  background-image: url(../image/header/backgr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 40px;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 180px;
+  padding: 0 30px;
+}
+.header__item-text{
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.header__item-tel{
+  font-family: 'Bold';
+  font-size: 20px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.header__content{
+  text-align: center;
+  margin-bottom: 140px;
+}
+.header__content-title {
+  font-family: 'Medium';
+  font-size: 60px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+.header__content-subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+.header__content-location {
+  margin-bottom: 100px;
+}
+.btn {
+  font-family: 'Bold';
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 70px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.header__social{
+  text-align: center;
+  .header__social-link{
+    font-size: 12px;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    i{
+      padding: 25%;
+    }
+  }
+}
+.header__social-link{
+  &:hover{
+    background-color:  $accent;
+    transition: .5s;
+  }
+  &:hover{
+    transition: .5s;
+    i{
+      color: #000;
+    }
+  }
+}
+
+
+/*====================================== ABOUT-TOUR ====================================== */
+.about-tour{
+  padding: 50px 0;
+  background-color: $accent;
+}
+.about-tour__inner{
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-tour__item-img{
+  margin-right: 70px;
+}
+.about-tour__item-subtitle {
+  font-family: 'Medium';
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.about-tour__item-title {
+  font-family: 'Bold';
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.about-tour__item-description {
+  margin-bottom: 40px;
+}
+.item-box-item{
+  display: flex;
+  margin-bottom: 20px;
+}
+.item-box__icon{
+  margin-right: 25px;
+}
+.item-box__name{
+  font-family: 'Light';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+/*====================================== TRIGGER ====================================== */
+.trigger{
+  padding: 80px 0;
+}
+.image{
+  width: 180px;
+  height: 180px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+.trigger__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.trigger__item{
+  text-align: center;
+  flex: 1 0 33%;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+.trigger__item-img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.holder__title{
+  margin-bottom: 70px;
+  text-align: center;
+}
+.holder__title-title{
+  font-family: 'Medium';
+  font-size: 36px;
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    background-image: url(../image/trigger/line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 25px;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
