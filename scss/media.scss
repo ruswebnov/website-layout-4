@@ -1,0 +1,792 @@
+@media(max-width: 992px) {
+
+  /* ==========================Header======================== */
+  .header__content-title {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .header__content {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+
+ /* ====================about-tour===================== */
+  .about-tour__inner {
+    padding: 0 30px;
+  }
+
+  .about-tour__item-subtitle {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .about-tour__item-title {
+    font-size: 40px;
+  }
+
+  .about-tour__item-img {
+    margin-right: 50px;
+  }
+
+
+  /* =============================Trigger======================== */
+  .trigger {
+    padding: 50px 0 20px 0;
+  }
+
+  .trigger__item {
+    padding: 0 30px;
+  }
+
+
+  /* =============================Travel============================= */
+  .travel {
+    padding: 40px 0;
+  }
+
+  .travel___slider-img {
+    width: 750px;
+    height: 500px;
+  }
+
+  .travel__slider {
+    .slick-current {
+      &::before {
+        width: 750px;
+        height: 500px;
+      }
+    }
+  }
+
+  .travel___slider-description {
+    padding: 0 100px;
+  }
+
+
+  /* =============================timetable============================= */
+  .timetable {
+    padding: 0 0 40px 0;
+  }
+
+  .timetable__item {
+    margin: 15px;
+    flex: 1 0 29%;
+  }
+
+
+
+  /* =============================program============================= */
+  .program {
+    padding: 40px 0;
+  }
+
+
+
+  /* =============================about-ayurveda============================= */
+  .about-ayurveda__title {
+    margin-bottom: 40px;
+  }
+
+  .about-ayurveda__description {
+    padding: 0 20px;
+  }
+
+  .ayurveda__item-text {
+    width: 60%;
+  }
+
+  .about-ayurveda__item {
+    padding: 0 20px;
+  }
+
+  .about-ayurveda__content {
+    padding: 0 20px;
+  }
+
+  .ayurveda__content-img {
+    width: 50%;
+  }
+
+  .ayurveda__content-list {
+    max-width: 100%;
+  }
+
+
+
+  /* =============================instructors============================= */
+  .instructors {
+    padding: 40px 0;
+    position: relative;
+  }
+
+
+  /* =============================reviews============================= */
+  .reviews__slider-item {
+    padding: 0 50px;
+  }
+
+  .reviews__slider {
+    .slick-prev {
+      top: 40%;
+      left: 1%;
+    }
+
+    .slick-next {
+      top: 40%;
+      right: 1%;
+    }
+  }
+
+  .reviews__item-review {
+    flex: 1 0 66%;
+  }
+
+  .reviews__slider {
+    .slick-dots {
+      left: 50%;
+      bottom: -10%;
+    }
+  }
+
+  .advantages {
+    padding: 40px 0;
+  }
+
+  .advantages__item {
+    margin-bottom: 40px;
+  }
+
+
+  /* =============================work============================= */
+  .work {
+    padding: 40px 0;
+  }
+
+
+  /* =============================price============================= */
+  .price {
+    padding: 40px 20px;
+  }
+
+  /*============================= guarantee============================= */
+  .guarantee {
+    padding: 40px 20px;
+  }
+
+  .guarantee__text {
+    margin-bottom: 40px;
+  }
+
+  /* =============================contacts============================= */
+  .contacts {
+    padding: 40px 20px;
+  }
+
+  .contacts__item {
+    margin-right: 100px;
+  }
+
+}
+
+
+
+
+@media(max-width:768px) {
+
+  /* ==========================Header======================== */
+  .header__content-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .header__inner {
+    margin-bottom: 100px;
+  }
+
+  .header__content-location {
+    margin-bottom: 60px;
+  }
+
+  .header__content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header__item-text{
+    margin-right: 80px;
+  }
+  .mobile-menu{
+    display: block;
+  }
+
+
+
+  /* ====================about-tour===================== */
+  .about-tour__inner {
+    padding: 0 30px;
+  }
+
+  .about-tour__item-subtitle {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .about-tour__item-title {
+    font-size: 35px;
+  }
+
+  .about-tour__item-img {
+    margin-right: 15px;
+    width: 230px;
+  }
+
+  .holder__title-title {
+    font-size: 30px;
+  }
+
+
+  /* =============================Travel============================= */
+  .travel {
+    padding: 40px 0;
+  }
+
+  .travel___slider-img {
+    width: 500px;
+    height: 360px;
+  }
+
+  .travel__slider {
+    .slick-current {
+      &::before {
+        width: 500px;
+        height: 360px;
+      }
+    }
+  }
+
+  .travel___slider-description {
+    padding: 0 20px;
+  }
+
+  .slider-description__text {
+    font-size: 14px;
+  }
+
+  .slider-description__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  /*============================= about-ayurveda =============================*/
+  .about-ayurveda__description {
+    font-size: 16px;
+    margin-bottom: 21px;
+  }
+
+  .about-ayurveda__title {
+    margin-bottom: 40px;
+  }
+
+  .about-ayurveda__description {
+    padding: 0 20px;
+  }
+
+  .ayurveda__item-text {
+    width: 80%;
+    padding: 0 0 0 40px;
+  }
+
+  .about-ayurveda__content {
+    padding: 0 10px;
+  }
+
+  .ayurveda__content-title {
+    font-size: 26px;
+    margin: 0 auto;
+  }
+
+  .ayurveda__content-location {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .about-ayurveda__content--img {
+    display: none;
+  }
+
+  .content-list__inner {
+    margin-bottom: 20px;
+  }
+
+  .ayurveda-slider {
+    visibility: visible;
+  }
+
+  /* =============================instructors============================= */
+  .instructors__slider-box {
+    padding: 20px 10px;
+  }
+
+  .box__item-name {
+    font-family: Bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .box__item--text {
+    &::before {
+      left: -3%
+    }
+  }
+
+  .box__item-direction {
+    font-size: 14px;
+  }
+
+  .box__item-text {
+    font-size: 14px;
+  }
+
+  /* =============================reviews============================= */
+  .reviews__slider-item {
+    flex-direction: column;
+
+    .circle__box {
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* =============================price============================= */
+  .price__box__item,
+  .price__box-trigger {
+    padding: 20px;
+  }
+
+  .price__item-tour,
+  .price__trigger-spec {
+    font-size: 16px;
+  }
+
+  .price__trigger-spec {
+    padding: 0 20px 0 0;
+  }
+
+  .price__item-price {
+    padding: 0 0 0 20px;
+  }
+
+  .price__included-title,
+  .price__excluded-title {
+    margin-bottom: 20px;
+  }
+
+  .price__excluded-item {
+    margin-bottom: 20px;
+  }
+
+
+  /* =============================guarantee============================= */
+  .guarantee__title {
+    margin-bottom: 20px;
+  }
+
+
+
+  /* =============================contacts============================= */
+  .contacts__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts__item {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .contacts__social-link {
+    margin-bottom: 0;
+  }
+
+  .contacts__inner-title {
+    margin-bottom: 20px;
+  }
+
+  .contacts-title,
+  .contacts__item,
+  .contacts__inner-title {
+    text-align: center;
+  }
+
+  .contacts__inner--map {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contacts__item-map {
+    margin-bottom: 30px;
+  }
+
+  /*============================= footer============================= */
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__item--log {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+@media(max-width:544px) {
+  .holder__title {
+    margin-bottom: 50px;
+  }
+
+  .holder__title-title {
+    font-size: 28px;
+  }
+
+  .holder__box {
+    height: 290px;
+  }
+
+  /* ==========================Header======================== */
+  .header__inner {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .header__item-tel,
+  .header__content-subtitle {
+    font-size: 18px;
+  }
+
+  .header__content-location {
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 16px 40px;
+  }
+  .header__item-text{
+    margin-right: 0;
+  }
+
+  /* ====================about-tour===================== */
+  .about-tour {
+    padding: 20px 0;
+  }
+
+  .about-tour__inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .about-tour__item {
+    margin-bottom: 20px;
+  }
+
+  .about-tour__item-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .about-tour__item-description {
+    margin-bottom: 25px;
+  }
+
+  .about-tour__item-img {
+    margin-right: 0px;
+    width: 270px;
+  }
+
+  /* =============================trigger============================= */
+  .trigger {
+    padding: 30px 0 0px 0;
+  }
+
+  .trigger__item {
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+
+  .circle__box {
+    width: 110px;
+    height: 110px;
+  }
+
+  /* =============================Travel============================= */
+  .travel {
+    padding: 30px 0;
+  }
+
+  .slider-description__title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .slider-description__text {
+    font-size: 12px;
+  }
+
+  .travel___slider-img {
+    width: 280px;
+    height: 150px;
+  }
+
+  .travel__slider {
+    .slick-current {
+      &::before {
+        width: 280px;
+        height: 150px;
+      }
+    }
+  }
+
+  .travel___slider-description {
+    padding: 0;
+  }
+
+
+  /* =============================timetable============================= */
+  .timetable {
+    padding: 0 0 20px 0;
+  }
+
+  .timetable__item {
+    padding: 10px;
+    flex: 1 0 50%;
+  }
+
+  .timetable__item-link {
+    display: block;
+  }
+
+  .about-ayurveda__description {
+    font-size: 14px;
+  }
+
+  .about-ayurveda__description:nth-child(2) {
+    margin-bottom: 40px;
+  }
+
+  .about-ayurveda__title {
+    font-size: 20px;
+  }
+
+  .about-ayurveda__item {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .about-ayurveda__item {
+    .circle__box {
+      margin-bottom: 20px;
+    }
+  }
+
+  .ayurveda__item-text {
+    width: 100%;
+    padding: 0 0 0 0px;
+    text-align: center;
+  }
+
+  .ayurveda__content-title,
+  .ayurveda__content-location {
+    text-align: center;
+  }
+
+  .content-list__inner {
+    display: block;
+  }
+
+
+
+  /* =============================instructors============================= */
+  .instructors {
+    padding: 20px 0;
+  }
+
+  .instructors__slider-box {
+    top: 0;
+  }
+
+  .box__item-name {
+    font-size: 16px;
+  }
+
+  .box__item-text {
+    display: none;
+  }
+
+  .box__item--text {
+    &::before {
+      content: none;
+    }
+  }
+
+  .slider-box__item {
+    flex: 1 0 100%;
+  }
+
+
+  /* =============================reviews============================= */
+  .reviews {
+    padding: 0 0 60px;
+  }
+
+  .reviews {
+    .holder__title {
+      margin-bottom: 50px;
+    }
+  }
+
+  .reviews__slider-item {
+    padding: 0 20px;
+  }
+
+  .reviews__item-review {
+    text-align: center;
+  }
+
+  .reviews__slider {
+    .slick-dots {
+      transform: translateX(-40%);
+    }
+  }
+
+
+  /* =============================advantages =============================*/
+  .advantages__item-title {
+    margin-bottom: 10px;
+  }
+
+  .advantages__item {
+    flex: 1 0 100%;
+    margin-bottom: 30px;
+  }
+
+  .advantages {
+    padding: 20px 0;
+  }
+
+
+
+  .work {
+    padding: 20px 0;
+  }
+
+  .work__item {
+    flex: 1 0 50%;
+
+    &::before {
+      top: 105%;
+      left: 50%;
+
+      transform: translateX(-50%) rotate(90deg);
+    }
+
+    &:nth-child(5)::before {
+      content: none;
+    }
+  }
+
+
+
+  /*============================= price============================= */
+  .price {
+    padding: 20px 10px;
+  }
+
+  .price__box-trigger,
+  .price__box__item {
+    padding: 10px;
+  }
+
+  .price__item-tour,
+  .price__trigger-spec {
+    font-size: 14px;
+  }
+
+  .price__item-price {
+    font-size: 18px;
+  }
+
+  .price__box-trigger {
+    flex-direction: column;
+  }
+
+  .price__trigger-spec {
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+
+  .price__box {
+    margin-bottom: 40px;
+  }
+
+  .price__excluded-list,
+  .price__included-list {
+    padding: 0;
+  }
+
+  .price__excluded-title,
+  .price__included-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .price__subtitle {
+    font-size: 16px;
+  }
+
+
+
+  /*============================= guarantee============================= */
+  .guarantee {
+    padding: 20px 10px;
+  }
+
+  .guarantee__title {
+    margin-bottom: 0px;
+  }
+
+  .guarantee__item-title {
+    font-size: 14px;
+  }
+
+
+
+  /*============================= contacts ============================= */
+  .contacts {
+    padding: 20px 20px;
+  }
+
+  .contacts__item-tel {
+    font-size: 22px;
+  }
+
+  .footer__inner:first-child {
+    padding-left: 20px;
+}
+.footer__item-logo{
+  left: -45px;
+  img {
+    width: 40%;
+    
+  }
+} 
+}
+

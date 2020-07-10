@@ -1,7 +1,8 @@
-@import "libs.scss";
+@import "libs";
 @import "fonts";
 @import "global";
 @import "vars";
+
 
 /*====================================== HEADER ====================================== */
 .header{
@@ -32,6 +33,10 @@
   line-height: 18px;
   text-decoration: none;
   color: #fff;
+  &:hover{
+    color: $accent;
+    text-decoration: underline;
+  }
 }
 .header__content{
   text-align: center;
@@ -169,6 +174,7 @@
 .holder__title{
   margin-bottom: 70px;
   text-align: center;
+  padding: 0 20px;
 }
 .holder__title-title{
   font-family: 'Medium';
@@ -234,21 +240,36 @@
 
 .travel__slider{
   .slick-current{
-    &::before{
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 940px;
-      height: 530px;
-      z-index: 1;
-      background-color: rgba(#444444, 0.6);
-    }
-    .travel___slider-description{
-      visibility: visible;
-    }
+      &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 940px;
+        height: 530px;
+        z-index: 1;
+        background-color: rgba(#444444, 0.3);
+      }
+     
   }
 }
+
+
+.travel__slider{
+  .slick-current{
+    &:hover{
+      &::before{
+        background-color: rgba(#444444, 0.7);
+      }
+      .travel___slider-description{
+        visibility: visible;
+      }
+  }
+    }
+      
+}
+
+
 
 
 
@@ -286,6 +307,10 @@
   font-size: 12px;
   margin-bottom: 15px;
   text-decoration: underline;
+  transition: .3s;
+  &:hover{
+    color: $btncolor;
+  }
 }
 .timetable__item-btn {
   font-family: 'Bold';
@@ -331,7 +356,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   .circle__box{
     width: 120px;
     height: 120px;
@@ -362,6 +387,7 @@
   width: 140px;
   height: 140px;
   margin-bottom: 20px;
+  padding: 0 5px;
 }
 .ayurveda__content-title{
   font-family: 'Medium';
@@ -405,6 +431,9 @@
   padding-right: 15px;
 }
 
+.ayurveda-slider{
+  visibility: hidden;
+}
 
 
 /*======================================INSTRUCTORS======================================  */
@@ -467,7 +496,7 @@
 .instructors__slider{
   .slick-dots{
     position: absolute;
-  left: 95%;
+  right:  0;
   bottom: 2%;
   display: flex;
   li{
@@ -552,6 +581,7 @@
   width: 24px;
   height: 24px;
   z-index: 10;
+  cursor: pointer;
 }
 .slick-next{
   position: absolute;
@@ -565,6 +595,7 @@
   width: 24px;
   height: 24px;
   z-index: 10;
+  cursor: pointer;
 }
 .reviews__slider{
   .slick-dots{
@@ -625,8 +656,6 @@
 .advantages__item-text {
   font-family: 'Light';
 }
-
-
 
 
 
@@ -811,6 +840,7 @@
 .guarantee__inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .guarantee__item {
@@ -955,3 +985,77 @@
   color: #fff;
   text-decoration: underline;
 }
+
+
+
+/* ===============Mobile menu=============== */
+
+.mobile-menu{
+  display: none;
+  right: 10%;
+ 
+  width: 30px;
+  height: 40px;
+  position: fixed;
+  z-index: 50;
+  cursor: pointer;
+  span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 4px;
+    margin: 10px;
+    background-color: #000;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 35px;
+      height: 4px;
+      top: 10px;
+      left: 0;
+      background-color: #000;
+      transition: 0.5s;
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      top: 20px;
+      left: 0;
+      background-color: #000;
+    }
+  }
+}
+.mobile-menu{
+  &:hover{
+    
+    span{
+      background-color: $btncolor;
+      &::before{
+        width: 15px;
+      }
+      &:after{
+        background-color: $btncolor;
+      }
+    }
+    
+  }
+}
+.mobile-menu{
+  &.active{
+    span{
+      background-color: $btncolor;
+      &::before{
+        left: 300%;
+      }
+      &:after{
+        background-color: $btncolor;
+      }
+    }
+  }
+}
+
+
+@import "media";

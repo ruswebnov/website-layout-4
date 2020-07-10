@@ -10,7 +10,7 @@ $(document).ready(function() {
     variableWidth: true,
     focusOnSelect: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
   });
 
   //Слайдер из секции instructors
@@ -27,9 +27,33 @@ $(document).ready(function() {
     dots:true,
     arrows:true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+      }
+    }, 
+  ]
   })
 
+$('.ayurveda-slider').slick({
+  slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows:false,
+    responsive: [{
+      breakpoint: 544,
+      settings: {
+        slidesToShow: 2,
+      }
+    }, 
+  ]
+})
 
 
+
+
+  $('.mobile-menu').on('click', function() {
+    $(this).toggleClass('active')
+  })
 });
